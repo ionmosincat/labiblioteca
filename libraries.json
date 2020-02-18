@@ -1,0 +1,261 @@
+{"libraries": [
+	{
+		"id": 42,
+		"name": "Biblioteca Metropolitană Bucureşti",
+		"location": "Biblioteca Metropolitană Bucureşti",
+		"url": "http://aleph20.bmms.ro:8991/F/S85Y892H6CDNM421KXL689VQ3QK939U7FE48S87YA9QU4Q2GKS-32006?"
+	},
+	{
+		"id": 3,
+		"name": "Biblioteca Județeană 'Lucian Blaga' Alba",
+		"location": "Alba",
+		"url": "82.208.158.166"
+	},
+	{
+		"id": 4,
+		"name": "Biblioteca Judeţeană 'A.D. Xenopol' Arad",
+		"location": "Arad",
+		"url": "86.120.27.26:8080"
+	},
+	{
+		"id": 5,
+		"name": "Biblioteca Judeţeană 'Dinicu Golescu' Argeş",
+		"location": "Argeş",
+		"url": "bjarges.adisan.ro"
+	},
+	{
+		"id": 6,
+		"name": "Biblioteca Judeţeană 'Costache Sturdza' Bacău",
+		"location": "Bacău",
+		"url": "188.27.227.136:8081"
+	},
+	{
+		"id": 7,
+		"name": "Biblioteca Județeană 'Gheorghe Șincai' Bihor",
+		"location": "Bihor",
+		"url": "catalog.bibliobihor.ro"
+	},
+	{
+		"id": 8,
+		"name": "Biblioteca Judeţeană 'G. Coşbuc' Bistriţa-Năsăud",
+		"location": "Bistriţa-Năsăud",
+		"url": "tinread.bjbn.ro:8443"
+	},
+	{
+		"id": 9,
+		"name": "Biblioteca Judeţeană 'Panait Istrati' Brăila",
+		"location": "Brăila",
+		"url": "toread.bjbraila.ro"
+	},
+	{
+		"id": 10,
+		"name": "Biblioteca Judeţeană 'V. Voiculescu' Buzău",
+		"location": "Buzău",
+		"url": "5.2.236.17:8080"
+	},
+	{
+		"id": 11,
+		"name": "Biblioteca Judeţeană 'I.N. Roman' Constanţa",
+		"location": "Constanţa",
+		"url": "193.41.245.74"
+	},
+	{
+		"id": 12,
+		"name": "Biblioteca Județeană 'Al. Odobescu' Călărași",
+		"location": "Călărași",
+		"url": "213.177.28.84"
+	},
+	{
+		"id": 13,
+		"name": "Biblioteca Judeţeană 'Alexandru şi Aristia Aman' Dolj",
+		"location": "Dolj",
+		"url": "82.77.64.216"
+	},
+	{
+		"id": 14,
+		"name": "Biblioteca Judeţeană 'V.A. Urechia' Galați",
+		"location": "Galați",
+		"url": "193.231.136.4"
+	},
+	{
+		"id": 15,
+		"name": "Biblioteca Județeană 'I.A. Bassarabescu' Giurgiu",
+		"location": "Giurgiu",
+		"url": "188.173.73.210:81"
+	},
+	{
+		"id": 16,
+		"name": "Biblioteca Judeţeană 'Ovid Densuşianu' Hunedoara",
+		"location": "Hunedoara",
+		"url": "82.208.143.164:8080"
+	},
+	{
+		"id": 17,
+		"name": "Biblioteca Judeţeană 'Şt. Bănulescu' Ialomiţa",
+		"location": "Ialomiţa",
+		"url": "188.173.80.134:8080"
+	},
+	{
+		"id": 18,
+		"name": "Biblioteca Judeţeană 'I.Gh. Bibicescu' Mehedinţi",
+		"location": "Mehedinţi",
+		"url": "82.77.137.226"
+	},
+	{
+		"id": 19,
+		"name": "Biblioteca Judeţeană 'Nicolae Iorga' Prahova",
+		"location": "Prahova",
+		"url": "82.208.171.222"
+	},
+	{
+		"id": 20,
+		"name": "Biblioteca Judeţeană Satu Mare",
+		"location": "Satu Mare",
+		"url": "194.88.239.92:8081"
+	},
+	{
+		"id": 21,
+		"name": "Biblioteca Judeţeană 'I.S. Bădescu' Sălaj",
+		"location": "Sălaj",
+		"url": "94.53.210.163:8084"
+	},
+	{
+		"id": 22,
+		"name": "Biblioteca Județeană 'Marin Preda' Teleorman",
+		"location": "Teleorman",
+		"url": "84.232.254.100"
+	},
+	{
+		"id": 23,
+		"name": "Biblioteca Judeţeană 'Sorin Titel' Timiş",
+		"location": "Timiş",
+		"url": "tinread.bjt.ro"
+	},
+	{
+		"id": 24,
+		"name": "Biblioteca Judeţeană 'Panait Cerna' Tulcea",
+		"location": "Tulcea",
+		"url": "89.121.204.170:8080"
+	},
+	{
+		"id": 25,
+		"name": "Biblioteca Judeţeană 'Nicolae Milescu Spătaru' Vaslui",
+		"location": "Vaslui",
+		"url": "188.27.237.117:8080"
+	},
+	{
+		"id": 26,
+		"name": "Biblioteca Judeţeană 'Duiliu Zamfirescu' Vrancea",
+		"location": "Vrancea",
+		"url": "82.208.170.9:8080"
+	},
+	{
+		"id": 27,
+		"name": "Biblioteca Judeţeană 'Antim Ivireanu' Vâlcea",
+		"location": "Vâlcea",
+		"url": "5.2.245.172:8080"
+	},
+	{
+		"id": 28,
+		"name": "Biblioteca Municipală Adjud",
+		"location": "Adjud",
+		"url": "5.2.249.164:8080"
+	},
+	{
+		"id": 29,
+		"name": "Biblioteca Municipală 'Stroe S. Belloescu' Bârlad",
+		"location": "Bârlad",
+		"url": "5.2.176.115"
+	},
+	{
+		"id": 30,
+		"name": "Biblioteca Municipală Carei",
+		"location": "Carei",
+		"url": "86.34.41.55:8080"
+	},
+	{
+		"id": 31,
+		"name": "Biblioteca Municipală Codlea",
+		"location": "Codlea",
+		"url": "89.122.143.110:8080"
+	},
+	{
+		"id": 32,
+		"name": "Biblioteca Municipală 'Dr. C.I. Istrati' Câmpina",
+		"location": "Câmpina",
+		"url": "82.79.194.51:8080"
+	},
+	{
+		"id": 33,
+		"name": "Biblioteca Municipală 'Ion Barbu' Câmpulung Muscel",
+		"location": "Câmpulung Muscel",
+		"url": "193.230.5.20:8080"
+	},
+	{
+		"id": 36,
+		"name": "Biblioteca Orășenească 'Ana Georgescu' Odobești",
+		"location": "Odobești",
+		"url": "89.120.79.242:8080"
+	},
+	{
+		"id": 34,
+		"name": "Biblioteca Municipală 'Radu Rosetti' Onești",
+		"location": "Onești",
+		"url": "5.2.248.172:8080"
+	},
+	{
+		"id": 35,
+		"name": "Biblioteca Municipală 'Ştefan Petică' Tecuci",
+		"location": "Tecuci",
+		"url": "78.97.29.240"
+	},
+	{
+		"id": 37,
+		"name": "Biblioteca ASE București",
+		"location": "Biblioteca Univ. ASE",
+		"url": "tinread.biblioteca.ase.ro"
+	},
+	{
+		"id": 38,
+		"name": "Biblioteca Universității Danubius Galaţi",
+		"location": "Biblioteca Univ. Danubius",
+		"url": "89.136.240.68:8080"
+	},
+	{
+		"id": 39,
+		"name": "Biblioteca UNEFS București",
+		"location": "Biblioteca Univ. UNEFS",
+		"url": "5.2.150.151:1417"
+	},
+	{
+		"id": 40,
+		"name": "Biblioteca Universității din Craiova",
+		"location": "Biblioteca Univ. din Craiova",
+		"url": "193.231.40.234"
+	},
+	{
+		"id": 41,
+		"name": "Piteşti",
+		"location": "Biblioteca Univ. din Piteşti",
+		"url": "194.102.70.154"
+	},
+	{
+		"id": 0,
+		"name": "Biblioteca 'Episcop acad. Nicolae Popea'",
+		"location": "Biblioteca Episcopiei Caransebeșului",
+		"url": "82.79.244.79:8081"
+	},
+	{
+		"id": 1,
+		"name": "Institutul de Cercetări Eco-Muzeale 'G. Simion'",
+		"location": "Biblioteca ICEM Tulcea",
+		"url": "85.186.25.43"
+	},
+	{
+		"id": 2,
+		"name": "Biblioteca Institutului Teologic Romano-Catolic Franciscan din Roman (NT)",
+		"location": "Biblioteca Institutului Franciscan Roman",
+		"url": "82.208.131.67"
+	}
+]
+}

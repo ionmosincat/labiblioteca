@@ -1,0 +1,41 @@
+{
+    "manifest_version": 2,
+    "name": "La Biblioteca",
+    "short_name" : "LaBiblioteca",
+    "version": "1.7",
+    "description": "Verifică disponibilitatea cărților de pe diverse librării și magazine online la biblioteca din orașul tău.",
+    
+    "content_scripts": [
+      {
+        "matches": ["https://www.books-express.ro/*", "https://www.cartepedia.ro/*", "https://carturesti.ro/*", "https://www.elefant.ro/*", "https://www.libris.ro/*", "https://www.amazon.com/*", "https://www.amazon.co.uk/*", "https://www.amazon.de/*", "https://www.amazon.fr/", "https://www.amazon.es/", "https://www.audible.com/*", "https://www.audible.co/uk/*", "https://www.bookdepository.com/*", "https://www.goodreads.com/*"],
+        "js": ["content.js"]
+      },
+      {
+        "matches": ["http://aleph20.bmms.ro:8991/*", "http://82.208.158.166/*", "http://86.120.27.26:8080/*", "http://bjarges.adisan.ro/*", "http://188.27.227.136:8081/*", "https://catalog.bibliobihor.ro/*", "http://catalog.bibliobihor.ro/*", "https://tinread.bjbn.ro:8443/*", "http://tinread.bjbn.ro:8443/*", "http://toread.bjbraila.ro/*", "http://5.2.236.17:8080/*", "http://193.41.245.74/*", "http://213.177.28.84/*", "http://82.77.64.216/*", "http://193.231.136.4/*", "http://188.173.73.210:81/*", "http://82.208.143.164:8080/*", "http://188.173.80.134:8080/*", "http://82.77.137.226/*", "http://82.208.171.222/*", "http://194.88.239.92:8081/*", "http://94.53.210.163:8084/*", "http://84.232.254.100/*", "http://tinread.bjt.ro/*", "http://89.121.204.170:8080/*", "http://188.27.237.117:8080/*", "http://82.208.170.9:8080/*", "http://5.2.245.172:8080/*", "http://5.2.249.164:8080/*", "http://5.2.176.115/*", "http://86.34.41.55:8080/*", "http://89.122.143.110:8080/*", "http://82.79.194.51:8080/*", "http://193.230.5.20:8080/*", "http://89.120.79.242:8080/*", "http://5.2.248.172:8080/*", "http://78.97.29.240/*", "http://tinread.biblioteca.ase.ro/*", "http://89.136.240.68:8080/*", "http://5.2.150.151:1417/*", "http://193.231.40.234/*", "http://194.102.70.154/*", "http://82.79.244.79:8081/*", "http://85.186.25.43/*", "http://82.208.131.67/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "browser_action": {
+        "default_popup": "main.html",
+        "default_icon": {
+          "16": "images/icon16.png",
+          "32": "images/icon32.png",
+          "48": "images/icon48.png",
+          "128": "images/icon128.png"
+        }
+       },
+    "icons" : {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      }
+}

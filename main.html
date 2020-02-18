@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<title>La Bibliotecă</title>
+		<script src="content.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	</head>
+
+	<body>
+		<div class='tab'>
+			<button id='resultsButton' class='tablinks'>Rezultate</button>
+			<button id='settingsButton' class='tablinks'>Biblioteci</button>
+		</div>
+
+		<div id="resultsTab" class="tabcontent">
+			<p id="currentLibrary" class="current-library"></p>
+			<p id="welcomeMessage" class="welcome-message"></p>
+			<p id="Availibility" class="select"></p>
+			<!-- <p id="error" class="error"></p> -->
+			<div class="loader"></div>
+
+			<div id="availibilityList"></div>
+			<p id="alternativeList"></p>
+		</div>
+
+		<div id="settingsTab" class="tabcontent" style='display:none;' tabindex="0">
+			<p class="select">Alege biblioteca dorită din lista de mai jos:</p>
+			
+			<div id="data"></div>
+
+			<p class="select" style="font-size: 1.1rem;">* The extension icon is made by&nbsp;<a href="https://www.flaticon.com/authors/freepik">Freepik</a>&nbsp;from&nbsp;<a href="http://www.flaticon.com/" target="_blank" rel="noopener noreferrer">www.flaticon.com</a></p>
+		</div>
+
+		<img id="closeButton" src="images/close.png">
+
+		<div id="allowedwebsites" style="display: none;">
+			<ul class='allowed'>
+				<li>
+					<a href="https://www.books-express.ro/" target="_blank">books-express.ro</a>
+				</li>
+				<li>
+					<a href="https://www.cartepedia.ro/" target="_blank">cartepedia.ro</a>
+				</li>
+				<li>
+					<a href="https://carturesti.ro/" target="_blank">carturesti.ro</a>
+				</li>
+				<li>
+					<a href="https://www.elefant.ro/" target="_blank">elefant.ro</a>
+				</li>
+				<li>
+					<a href="https://www.libris.ro/" target="_blank">libris.ro</a>
+				</li>
+				<li>
+					<a href="https://www.amazon.com/" target="_blank">amazon (.com, .co.uk, etc.)</a>
+				</li>
+				<li>
+					<a href="https://www.audible.com/" target="_blank">audible (.com, .co.uk, etc.)</a>
+				</li>
+				<li>
+					<a href="https://www.bookdepository.com/" target="_blank">bookdepository.com</a>
+				</li>
+				<li>
+					<a href="https://www.goodreads.com/" target="_blank">goodreads.com</a>
+				</li>
+				
+				
+			</ul>
+		</div>
+	</body>
+</html>
